@@ -12,10 +12,6 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  right: 0px;
 }
 
 .nav_logo {
@@ -50,7 +46,7 @@ a {
 .main_view {
   display: flex;
   align-items: center;
-  padding: 75px 35px;
+  padding: 40px 35px;
   justify-content: space-around;
   background-color: #f06292;
 }
@@ -189,8 +185,7 @@ a {
     margin: 0px;
   }
   .main_view{
-    padding-top: 290px;
-    padding-bottom: 15px;
+    padding: 15px 35px;
   }
 }
 @media (max-width:800px) {
