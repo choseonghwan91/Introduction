@@ -1,0 +1,209 @@
+body {
+  margin: 0px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.nav_main {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+.nav_logo {
+  padding: 25px 15px;
+}
+
+.nav_link {
+  list-style: none;
+  display: flex;
+  width: 40%;
+  padding: 0px;
+  justify-content: space-between;
+}
+.nav_link li {
+  padding: 10px 15px;
+}
+.nav_link li:hover {
+  background-color: orange;
+}
+.nav_icon {
+  list-style: none;
+  display: flex;
+}
+.nav_icon li {
+  padding:10px 15px;
+}
+
+#img_cho {
+  max-width: 60%;
+  height: auto;
+}
+.main_view {
+  display: flex;
+  align-items: center;
+  padding: 75px 35px;
+  justify-content: space-around;
+  background-color: #f06292;
+}
+#main_view_name{
+  font-size: 50px;
+}
+#header {
+  text-align: center;
+  padding:100px 0px 10px 0px;
+  font-size: 50px;
+}
+.art_about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.art_about img {
+  padding:20px 30px;
+}
+
+.img_map {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.img_hobby {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.img_puppy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.art_study {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.art_study iframe {
+  padding: 20px 70px;
+}
+.art_skill {
+  display: flex;
+  padding :30px 10%;
+  margin: 0px 15%;
+  background-color: beige;
+}
+.art_skill_list {
+  list-style: none;
+  font-size: 30px;
+  height: 300px;
+  width: 100px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.art_skill_graph {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0px;
+  padding-left: 50px;
+}
+.graphbar {
+  background-color: grey;
+  width: 100%;
+  height: 30px;
+  border-radius: 25px;
+}
+.html_graphbar {
+  background-color: red;
+  text-align: right;
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 25px;
+}
+.css_graphbar {
+  background-color: blue;
+  text-align: right;
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 25px;
+}
+.java_graphbar {
+  background-color: orange;
+  text-align: right;
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 25px;
+}
+.python_graphbar {
+  background-color: green;
+  text-align: right;
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 25px;
+}
+.art_contact {
+  font-size: 20px;
+  list-style: none;
+  padding-bottom: 200px;
+  display: flex;
+  justify-content: center;
+}
+.art_contact li {
+  padding: 0px 50px;
+}
+#mail_icon {
+  color: black;
+}
+
+@media (max-width:1024px) {
+  .nav_main {
+    display: block;
+  }
+  .nav_link {
+    display: block;
+    text-align: center;
+    margin: 0px;
+    width: auto;
+
+  }
+  .nav_icon {
+    padding: 0px;
+    justify-content: center;
+    margin: 0px;
+  }
+  .main_view{
+    padding-top: 290px;
+    padding-bottom: 15px;
+  }
+}
+@media (max-width:800px) {
+  .main_view {
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding-bottom: 10px;
+  }
+  #main_view_name {
+    font-size: 20px;
+  }
+  .art_contact {
+    flex-direction: column;
+    align-items: center;
+  }
+}
