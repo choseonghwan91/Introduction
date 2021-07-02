@@ -16,6 +16,7 @@ a {
 
 .nav_logo {
   padding: 25px 15px;
+  font-family: 'Righteous';
 }
 
 .nav_link {
@@ -24,6 +25,7 @@ a {
   width: 40%;
   padding: 0px;
   justify-content: space-between;
+  font-family: 'Righteous';
 }
 .nav_link li {
   padding: 10px 15px;
@@ -49,19 +51,23 @@ a {
   padding: 40px 35px;
   justify-content: space-around;
   background-color: #f06292;
+  font-family: 'Sunflower';
 }
 #main_view_name{
   font-size: 50px;
+  font-family: 'Nanum Gothic Coding'
 }
 #header {
   text-align: center;
   padding:100px 0px 10px 0px;
   font-size: 50px;
+  font-family: 'Righteous';
 }
 .art_about {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  font-family: 'Sunflower';
 }
 .art_about img {
   padding:20px 30px;
@@ -117,42 +123,62 @@ a {
   padding-left: 50px;
 }
 .graphbar {
-  background-color: grey;
+  background-color: #c7c7c7;
   width: 100%;
   height: 30px;
   border-radius: 25px;
 }
 .html_graphbar {
-  background-color: red;
+  background-color: #f44336;
   text-align: right;
   display: block;
   height: 30px;
   line-height: 30px;
   border-radius: 25px;
+  animation: html_animation 2s 1;
+}
+@keyframes html_animation {
+  0% { width:0%; }
+  100% { width:25%; }
 }
 .css_graphbar {
-  background-color: blue;
+  background-color: #ffee58;
   text-align: right;
   display: block;
   height: 30px;
   line-height: 30px;
   border-radius: 25px;
+  animation: css_animation 2s 1;
+}
+@keyframes css_animation {
+  0% { width:0%; }
+  100% { width:25%; }
 }
 .java_graphbar {
-  background-color: orange;
+  background-color: #81c784;
   text-align: right;
   display: block;
   height: 30px;
   line-height: 30px;
   border-radius: 25px;
+  animation: java_animation 2s 1;
+}
+@keyframes java_animation {
+  0% { width:0%; }
+  100% { width:0%; }
 }
 .python_graphbar {
-  background-color: green;
+  background-color: #42a5f5;
   text-align: right;
   display: block;
   height: 30px;
   line-height: 30px;
   border-radius: 25px;
+  animation: python_animation 2s 1;
+}
+@keyframes python_animation {
+  0% { width:0%; }
+  100% { width:0%; }
 }
 .art_contact {
   font-size: 20px;
@@ -164,8 +190,16 @@ a {
 .art_contact li {
   padding: 0px 50px;
 }
-#mail_icon {
+#mail_icon, #phone_icon {
   color: black;
+}
+.top_move {
+  background-color: black;
+  position: fixed;
+  padding: 5px 10px;
+  bottom: 0px;
+  right: 0px;
+  border-radius: 10px;
 }
 
 @media (max-width:1024px) {
